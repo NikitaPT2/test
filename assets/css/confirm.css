@@ -1,0 +1,65 @@
+/* Стили для формы */
+form {
+        font-family: 'Poppins', sans-serif; /* выбор шрифта для формы */
+        background-color: #fff; /* установка белого фона */
+        border: 1px solid #ccc; /* установка тонкой серой границы */
+        border-radius: 5px; /* скругление углов формы */
+        box-shadow: 0 0 10px #ccc; /* добавление теней */
+        max-width: 500px; /* установка максимальной ширины формы */
+        margin: 0 auto; /* автоматическое выравнивание по центру по горизонтали */
+        padding: 20px; /* добавление отступов вокруг формы */
+        text-align: center; /* выравнивание содержимого формы по центру */
+}
+
+form p {
+    font-size: 20px; /* устанавливает размер шрифта для текста внутри <p> тегов */
+    margin-bottom: 20px; /* добавляет отступ вниз для всех <p> тегов */
+}
+
+form button,
+form a {
+    background-color: #A66A2C; /* установка фона для кнопок */
+    border: none; /* убирает границы у кнопок */
+    border-radius: 5px; /* скругление углов кнопок */
+    color: #fff; /* устанавливает белый цвет для текста на кнопках */
+    cursor: pointer; /* устанавливает значок курсора при наведении на кнопку */
+    display: inline-block; /* устанавливает блочный тип для элементов <button> и <a> */
+    font-size: 20px; /* устанавливает размер шрифта для текста на кнопках */
+    padding: 10px 20px; /* добавляет отступы внутри кнопок */
+    text-align: center; /* устанавливает выравнивание текста по центру */
+    text-decoration: none; /* убирает подчеркивание для ссылок */
+    transition: background-color 0.3s ease; /* добавляет плавный переход цвета при навед */
+    margin: 10px;
+}
+
+/*Стили для кнопок при наведении (hover):*/
+form button:hover,
+form a:hover {
+    background-color: #D5AA72;
+}
+
+/* Стили для ссылки "Нет" */
+a {
+    color: #A66A2C; /* установка цвета текста ссылки */
+    display: inline-block; /* установка инлайн-блочного элемента */
+    font-size: 20px; /* установка размера шрифта ссылки */
+    margin-left: 10px; /* установка отступа слева от ссылки */
+    text-decoration: none; /* установка отсутствия подчеркивания для ссылки */
+    transition: color 0.3s ease; /* добавление плавного перехода цвета при наведении на ссылку */
+}
+
+a:hover {
+    color: #D5AA72;
+}
+
+.no-data {
+    font-size: 18px;
+  font-weight: bold;
+  color: #be853b;
+  border: 1px solid #422705;
+  padding: 10px;
+  text-align: center;
+  text-transform: uppercase;
+  }
+
+  
